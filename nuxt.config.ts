@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    siteToken: 123456,
+    crypto.randomUUID(),
     redirectStatusCode: '301',
     linkCacheTtl: 60,
     redirectWithQuery: false,
